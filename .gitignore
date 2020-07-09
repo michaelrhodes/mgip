@@ -1,0 +1,8 @@
+*
+!.gitignore
+!package.json
+!readme.md
+!index.js
+!nano.js
+!raw.js
+!css.js
