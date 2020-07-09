@@ -2,7 +2,7 @@
 
 ## install
 ```sh
-npm install michaelrhodes/mgip
+npm install michaelrhodes/mgip#1.0.0
 ```
 
 ## use
