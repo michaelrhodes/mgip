@@ -1,5 +1,7 @@
 # mgip
 
+![demo](demo.jpg)
+
 ## install
 ```sh
 npm install michaelrhodes/mgip#1.0.0
@@ -7,8 +9,8 @@ npm install michaelrhodes/mgip#1.0.0
 
 ## use
 ```js
-var mgip = require('mgip')
 var get = require('get-image-data')
+var mgip = require('mgip')
 
 get(url, function (err, img) {
   el.style.cssText = mgip(img)
