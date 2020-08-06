@@ -10,10 +10,11 @@ npm install michaelrhodes/mgip#1.0.0
 ## use
 ```js
 var get = require('get-image-data')
-var mgip = require('mgip')
+var raw = require('mgip/raw')
+var css = require('mgip/css')
 
 get(url, function (err, img) {
-  el.style.cssText = mgip(img)
+  el.style.cssText = css(raw(img))
 })
 ```
 
